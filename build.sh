@@ -3,8 +3,8 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-of_version=v0.9.8
-of_tarball=of_${of_version}_linux64_release.tar.gz
+of_version=v0.10.0
+of_tarball=of_${of_version}_linux64gcc6_release.tar.gz
 
 if [ ! "$(ls of)" ]; then
   # if the of directory is empty
